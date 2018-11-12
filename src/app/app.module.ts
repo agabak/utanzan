@@ -9,6 +9,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './products/product-list.component';
 import { ConvertToSpacePipe } from './share/convert-to-space.pipe';
 import { StarComponent } from './share/star.component';
+import { ProductDetailComponent } from './products/product-detail.component';
 
 
 
@@ -19,6 +20,7 @@ import { StarComponent } from './share/star.component';
     ProductListComponent,
     ConvertToSpacePipe,
     StarComponent,
+    ProductDetailComponent,
   ],
   imports: [
     BrowserModule,
