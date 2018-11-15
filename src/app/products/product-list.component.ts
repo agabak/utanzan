@@ -14,8 +14,6 @@ export class ProductListComponent implements OnInit {
  products: IProduct[];
  showImage = false;
  errorMessage: string;
- // listFilter = 'cart';
-
  _listFilter: string;
 
  get listFilter(): string {
