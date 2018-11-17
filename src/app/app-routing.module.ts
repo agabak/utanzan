@@ -6,8 +6,6 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ProductDetailGuard } from './products/product-detail.guard';
 
 const routes: Routes = [
-  {path: 'products', component: ProductListComponent},
-  {path: 'products/:id', component: ProductDetailComponent, canActivate: [ProductDetailGuard]},
   {path: 'welcome', component: WelcomeComponent},
   {path: '', redirectTo: 'welcome', pathMatch: 'full'},
   {path: '***', redirectTo: 'welcome', pathMatch: 'full'}
